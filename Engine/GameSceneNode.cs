@@ -23,7 +23,7 @@ namespace DEngine
             set { _rectangle = value; }
         }
 
-        /*
+        
         /// <summary>
         /// The scene node's calculated world transform.
         /// </summary>
@@ -32,7 +32,7 @@ namespace DEngine
             get { return absoluteTransform; }
             set { absoluteTransform = value; }
         }
-        */
+        
         /// <summary>
         /// The scene node's calculated position (does not include camera displacement)
         /// </summary>
