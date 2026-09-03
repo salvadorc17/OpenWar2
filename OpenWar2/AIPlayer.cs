@@ -129,11 +129,12 @@ namespace FactionsGame
                 case AIState.Attacking:
 
                     // Wait and evaluate result of attack
-
+                    _aiState = AIState.Attacking;
                     break;
                 case AIState.Defending:
 
                     // How to trigger defending state? In waiting phase I suppose.
+                    _aiState = AIState.Defending;
 
                     break;
                 default:
