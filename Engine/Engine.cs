@@ -742,6 +742,9 @@ namespace DEngine
 
             ResetSceneGraph();  // Clear and get new scene graph (layered)
             _sceneGraph.CullingDistance = _screenSize.Width;
+            _audioEngine = new AudioEngine("Content/sounds/FactionsAudioXACT.xgs");
+            _soundBank = new SoundBank(_audioEngine, "Content/sounds/Sound Bank.xsb");
+            _waveBank = new WaveBank(_audioEngine, "Content/sounds/Wave Bank.xwb");
         }
         #endregion
 
