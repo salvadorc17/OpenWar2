@@ -197,18 +197,18 @@ namespace FactionsGame
             this.Children.Add(cmbColor);
 
             // Give it colors!
-            cmbColor.AddItem("Blue", "gui\\teamflag1");
-            cmbColor.AddItem("Red", "gui\\teamflag2");
-            cmbColor.AddItem("Purple", "gui\\teamflag3");
-            cmbColor.AddItem("Yellow", "gui\\teamflag4");
-            cmbColor.AddItem("Green", "gui\\teamflag5");
-            cmbColor.AddItem("Orange", "gui\\teamflag6");
-            cmbColor.AddItem("White", "gui\\teamflag7");
-            cmbColor.AddItem("Brown", "gui\\teamflag8");
-            cmbColor.AddItem("Gray", "gui\\teamflag9");
-            cmbColor.AddItem("Aqua", "gui\\teamflag10");
-            cmbColor.AddItem("Tan", "gui\\teamflag11");
-            cmbColor.AddItem("Pink", "gui\\teamflag12");
+            cmbColor.AddItem("Blue", "gui/teamflag1");
+            cmbColor.AddItem("Red", "gui/teamflag2");
+            cmbColor.AddItem("Purple", "gui/teamflag3");
+            cmbColor.AddItem("Yellow", "gui/teamflag4");
+            cmbColor.AddItem("Green", "gui/teamflag5");
+            cmbColor.AddItem("Orange", "gui/teamflag6");
+            cmbColor.AddItem("White", "gui/teamflag7");
+            cmbColor.AddItem("Brown", "gui/teamflag8");
+            cmbColor.AddItem("Gray", "gui/teamflag9");
+            cmbColor.AddItem("Aqua", "gui/teamflag10");
+            cmbColor.AddItem("Tan", "gui/teamflag11");
+            cmbColor.AddItem("Pink", "gui/teamflag12");
 
             if (player.Color > 0)
             {
