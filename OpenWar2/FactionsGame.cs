@@ -1641,7 +1641,7 @@ namespace FactionsGame
                 if (actor is RTSActor)
                 {        
                     RTSActor rtsActor = (RTSActor)actor;
-                    if (!rtsActor.IsDead && !rtsActor.EditorVisibleOnly)
+                    if (!rtsActor.IsDead && !rtsActor.EditorVisibleOnly && rtsActor.Enabled)
                     {
                         int actorTeamIndex = playerTeams.IndexOf(actor.Team);
                         teamUnitCounts[actorTeamIndex]++;
@@ -1673,7 +1673,7 @@ namespace FactionsGame
                     }
                 }
 
-                if (totalEnemyUnitCount == 0)
+                if (totalEnemyUnitCount == 0 && teamUnitCounts[0] > 0)
                 {
                     // Win!
                     _gameStarted = false;
