@@ -60,8 +60,8 @@ namespace DEngine
                            Color.LimeGreen, 
                            Color.Orange, 
                            Color.LightGray, 
-                           Color.SaddleBrown, 
-                           new Color(64, 64, 64), // Dark gray, darker than what web colors afford.
+                           Color.SaddleBrown,
+                           Color.DarkGray,
                            Color.MediumTurquoise,
                            Color.Tan,
                            Color.Magenta};
@@ -721,7 +721,7 @@ namespace DEngine
             this.Window.AllowUserResizing = true;
 
             //change Window title in game class
-            this.Window.Title = "DEngine";
+            //this.Window.Title = "DEngine";
 
             //content = new ContentManager(Services);
             Content.RootDirectory = "Content";
